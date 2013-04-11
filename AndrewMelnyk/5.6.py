@@ -1,3 +1,6 @@
+# TODO
+# Program doesn't do output
+
 #Андрій Мельник ПРЛс-12 27.02.12
 d = {} #Створення порожнього словника
 d['god']='NN'
@@ -7,6 +10,5 @@ d['fiercly']='ADV' #Наповнення словника
 d
 {'destroy': 'V', 'god': 'NN', 'fiercly': 'ADV', 'funny': 'JJ'}
 del d['god'] #Видалення елементу словника
-d
-{'destroy': 'V', 'fiercly': 'ADV', 'funny': 'JJ'}
+print d
 
